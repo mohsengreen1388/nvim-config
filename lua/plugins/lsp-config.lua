@@ -52,7 +52,7 @@ return {
 
 			lspconfig.cmake.setup({})
 
-			lspconfig.sqlls.setup({})
+			lspconfig.sqls.setup({})
 
 			lspconfig.bashls.setup({})
 
