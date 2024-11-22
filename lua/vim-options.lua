@@ -16,5 +16,8 @@ vim.keymap.set("n", "<c-s>", ":FormatWrite<CR>")
 vim.keymap.set("n", "<c-w>", ":w<CR>")
 vim.keymap.set("n", "<c-f>", ":Format<CR>")
 
+vim.keymap.set("n", "<C-S-Up>", ":m -2 <CR>")
+vim.keymap.set("n", "<C-S-Down>", ":m +1 <CR>")
+
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.wo.number = true
