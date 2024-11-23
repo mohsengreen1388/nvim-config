@@ -37,15 +37,13 @@ return {
 			lspconfig.gopls.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.gopls.setup({
-				capabilities = capabilities,
-			})
+
 			lspconfig.yamlls.setup({})
 
 			lspconfig.dockerls.setup({})
 
 			lspconfig.buf_ls.setup({
-				capabilities = capabilities,
+				filetypes = { "proto" },
 			})
 
 			lspconfig.docker_compose_language_service.setup({})
